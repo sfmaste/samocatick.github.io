@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Самокатик</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="img/logo (1).svg" alt="logo" class="logo_img"></div>
+            <label class="search"><input type="text" placeholder="поиск"></label>
+            <form action="profile.html"><button class="btn">ЛИЧНЫЙ КАБИНЕТ</button></form>
+        </div>
+    </header>
+    <section>
+        <div class="block1">
+            <div class="product">
+                <h2>ТОВАРЫ</h2>
+                <div class="menu">
+                    <a href="" class="point"><img src="img/Soup Plate.svg" alt="icon">готовая еда</a>
+                    <a href="" class="point"><img src="img/French Croissant.svg" alt="icon">выпечка</a>
+                    <a href="" class="point"><img src="img/Rice Bowl.svg" alt="icon">бакалея</a>
+                    <a href="" class="point"><img src="img/Pizza.svg" alt="icon">снеки</a>
+                    <a href="" class="point"><img src="img/Pet Bowl.svg" alt="icon">для животных</a>
+                    <a href="" class="point"><img src="img/Soup Plate.svg" alt="icon">для детей и родителей</a>
+                    <a href="" class="point"><img src="img/Steak.svg" alt="icon">морозилка</a>
+                </div>
+            </div>
+            <div class="city">
+                <h2>Ваш город Москва?</h2>
+                <div class="p">в зависимости от города меняется цена</div>
+                <div class="group_btn">
+                    <button class="yes">да</button>
+                    <button class="no">нет</button>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <h2>ДОСТАВКА ОТ 15 МИНУТ</h2>
+            <div class="cards">
+                <div class="card"><img src="img/delivery.svg" alt="delivery"></div>
+                <div class="card"><img src="img/deliv.svg" alt="delivery"></div>
+                <div class="card"><img src="img/delivery.svg" alt="delivery"></div>
+                <div class="card"><img src="img/deliv.svg" alt="delivery"></div>
+                <div class="card"><img src="img/delivery.svg" alt="delivery"></div>
+            </div>
+            <h2>АКЦИИ</h2>
+            <ul id="productList">
+                <li><img src="img/butter (1).svg" id="photo" alt="photo" width="200px"> Масло сливочное <div class="level"><p>287руб</p> <button class="addToCart" data-product="Масло сливочное">Добавить в корзину</button></div> </li>
+                <li><img src="img/butter (1).svg" id="photo" alt="photo" width="200px">Масло сливочное <div class="level"><p>287руб</p> <button class="addToCart" data-product="Масло сливочное">Добавить в корзину</button></div></li>
+                <li><img src="img/butter (1).svg" id="photo" alt="photo" width="200px">Масло сливочное <div class="level"><p>287руб</p> <button class="addToCart" data-product="Масло сливочное">Добавить в корзину</button></div></li>
+            </ul>
+            <div class="orders">
+                <h2>ВАША КОРЗИНА</h2>
+                <ul id="cart"></ul>
+                <p>Общее количество товаров: <span id="totalCount"></span></p>
+            </div>
+    </section>
+    <footer>
+        <div class="menu_f">
+            <a href="" class="point_f">для поставщиков</a>
+            <a href="" class="point_f">стать курьером-партнером</a>
+            <a href="" class="point_f">контакты </a>
+        </div>
+        <div class="logo_footer">
+            <img src="img/logo (1).svg" alt="logo">
+            <p>Доставим <b>быстро</b> - будет <b>вкусно</b>!</p>
+        </div>
+        <div class="menu_f2">
+            <a href="" class="point_f">политика конфиденциальности</a>
+            <a href="" class="point_f">политика соглашения</a>
+            <a href="" class="point_f">линия тех.поддержки</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
